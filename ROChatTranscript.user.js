@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Unstar/unpin/delete for room owners
 // @namespace    http://stackoverflow.com/users/578411/rene
-// @version      0.3
+// @version      0.4
 // @description  RO Transcript
 // @author       rene
 // @match        *://chat.stackoverflow.com/transcript/*
@@ -52,7 +52,7 @@
     }
 
     function movetotrash(node) {
-        moveto(node, 48058);
+        moveto(node, 126195);
     }
 
     function movetoGraveYard(node) {
@@ -92,7 +92,7 @@
     function moveBuilder(node) {
         return menuBuilder(
             node,
-            "move to trash (RO only)",
+            "move to Sanitarium (RO only)",
             "",
             movetotrash
         );
